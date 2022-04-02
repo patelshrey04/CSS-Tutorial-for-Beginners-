@@ -37,7 +37,7 @@ We will study in short and next file about each and every things.
 h1{
   background-color : lightblue;
 
-  colour : blue;
+  colour : black;
   text-align: center;
   font-size: 50px;
 }
