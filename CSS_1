@@ -1,0 +1,58 @@
+<!--
+
+/* About CSS:
+1) CSS stands for Cascading Style Sheets.
+2) It provides the additional features for html.
+3) It is use for giving style of web pages and user interfaces.
+4) With the help of the CSS we can add the new look to old html documents.
+5) With minor change in CSS you can change the look of whole website.
+
+Advantages of using CSS:
+1) Solevs a bigs problems:
+
+In html we used to write tags for defining font, color, background style, element
+alignments, border and many more. So that become a very long process when you are 
+making huge website , so in case to avoid a lot of hardwork, we used CSS.
+
+2) Saves a lot of time:
+
+In CSS definations and commands are store in external file so if you want to change 
+something just change the things in the external files and you will apply it all over 
+the website.
+
+3) Provides more attributes:
+
+It gives us detailed attributes as compared to html to give the feel for the website.
+
+*/
+
+/*/ Here is the Example of How CSS is works /*/ 
+We will study in short and next file about each and every things.
+
+-->
+
+<html>
+<head>
+<style>
+h1{
+  background-color : lightblue;
+
+  colour : blue;
+  text-align: center;
+  font-size: 50px;
+}
+   
+p{
+ background-color : red;
+ font-family: verdana;
+ font-size:40px;
+}
+</style>
+</head>
+<body bgcolor= yellow>
+<h1> I am Starting CSS </h1>
+<p> I am the best Full Stack developer </p>
+</body>
+</html>   
+
+
