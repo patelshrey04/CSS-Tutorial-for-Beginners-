@@ -1,0 +1,102 @@
+<!--
+//** CSS CLASS SELECTOR **//
+
+> These tools are used to select the content you want to style.
+> CSS selectors select HTML elements according to its id, class, type, 
+  aatribute etc.
+  
+> There are several different types of selectors in CSS.
+
+  1.CSS Element Selector
+  2.CSS Id Selector
+  3.CSS Class Selector
+  4.CSS Universal Selector
+  5.CSS Group Selector
+  
+  We will discuss one by one here.
+  
+  1) CSS ELEMENT selctor 
+  
+-->
+<!--
+
+
+<html>
+<head>
+<style>
+p{
+  text-align: center;
+  color: green;
+}
+
+</style>
+</head>
+<body>
+<p> Here we are dicussing about the ELEMENT SELECTOR. </p>
+<p id="para1"> I got it </p>
+<p> Let's Study furthure </p>
+</style>
+</head>
+
+</body>
+</html>
+
+
+-->
+<!-- The element selector selects elements based on the element name.
+
+p{
+  text-align: center;
+  color: green;
+}
+
+like in above example 'p' is the element and it will apply the changes or 
+we can say the conditions to make web page attractive .
+
+similary if I add a new tag like 'h2' so in same way I have to add the element 
+selector for that particular purpose. 
+
+so let suppose i upgrade the html file as 
+
+-->
+
+
+<html>
+<head>
+<style>
+h2 {
+ text-align:center;
+ color: red;
+ font-size: 30px;
+} 
+
+
+p{
+  text-align: center;
+  color: green;
+}
+
+</style>
+</head>
+<body>
+<h1>
+<p> Here we are dicussing about the ELEMENT SELECTOR. </p>
+<p id="para1"> I got it </p>
+<p> Let's Study furthure </p>
+</h1>
+<h2> You are Learning CSS with Shrey Patel </h2>
+
+</style>
+</head>
+
+</body>
+</html>
+
+<!-- Try yourself in changing the colour , font-size , text-align by 
+changing yourself 
+
+I hope you understand this concept 
+Stay tuned for more 
+-->
+
+
