@@ -1,0 +1,61 @@
+<!-- 
+Here we will talk about the Syntax of the CSS 
+
+A CSS rule set contains a Selector and a Declaration block.
+
+Now the question arise what are selector and a declaration ?
+
+Selector: It Indicates  the HTML element you want to style. It can be any tag like <h1>,
+<title>, <body> etc.
+
+Declaration: The declaration part contains the declarations seperated by a semicolon.
+Each delaration contains a property name and value, seprated by a colon.
+
+Let's consider previos example only:
+
+h1{
+  background-color : lightblue;
+
+  colour : blue;
+  text-align: center;
+  font-size: 50px;
+}
+ The text which we type here as "h1" is the 'selector' , furthre there also another "p".
+ The "color" , "text-align" ,"font-size" are the 'property' which we write in a declaration.
+ And the last but not the list is the "blue","cneter","50px" are the 'value' .
+ 
+ When we combine the above all the three we make a declaration block.
+ 
+ The actual syntax of declaration seems like as follow:
+ Selector{Property1: value1; Property2: value2; ..........;}  
+
+
+
+
+//** EXAMPLE BELOW **//
+-->
+
+
+<html>
+<head>
+<style>
+h1{
+  background-color : lightblue;
+
+  colour : black;
+  text-align: center;
+  font-size: 50px;
+}
+   
+p{
+ background-color : red;
+ font-family: verdana;
+ font-size:40px;
+}
+</style>
+</head>
+<body bgcolor= yellow>
+<h1> I am Starting CSS </h1>
+<p> I am the best Full Stack developer </p>
+</body>
+</html>   
